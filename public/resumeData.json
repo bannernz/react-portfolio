@@ -1,139 +1,167 @@
 {
-  "main": {
-    "name": "Sonny Sangha",
-    "occupation": "ReactJS Developer && Instructor @CleverProgrammer",
-    "description": "Full Stack React Developer by Day, Founder && Freelancer by Night. #papaReact",
-    "image": "IG_Sonny.jpeg",
-    "bio": "My name is Sonny, I'm a Full Stack ReactJS Developer. Currently I'm working at Clever Programmer while also coaching ",
-    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
-    "email": "sonny@cleverprogrammer.com",
-    "phone": "+44 12 345 6789",
-    "address": {
-      "street": "123 Fake Street",
-      "city": "London",
-      "state": "UK",
-      "zip": "ABC 123"
+    "main": {
+        "name": "Brendan Mills",
+        "occupation": "ReactJS Developer, PHP, Symfony, Firebase and MySQL",
+        "description": "Full Stack ReactJS Developer, Founder && Freelancer by Night.",
+        "image": "profile.jpg",
+        "bio": "My name is Brendan, I'm a Full Stack ReactJS Developer.",
+        "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+        "email": "banner.nz@cleverprogrammer.com",
+        "phone": "+64 21 266 test",
+        "address": {
+            "street": "123 Fake Street",
+            "suburb": "Rototuna North",
+            "city": "Hamilton",
+            "postcode": "3210",
+            "region": "Waikato",
+            "country": "New Zealand"
+        },
+        "website": "#",
+        "resumedownload": "#",
+        "social": [
+            {
+                "name": "facebook",
+                "url": "https://www.facebook.com/sllim.nadnerb/",
+                "className": "fa fa-facebook"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/brendanmillsnz/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "instagram",
+                "url": "https://www.instagram.com/banner_nz/",
+                "className": "fa fa-instagram"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/bannernz",
+                "className": "fa fa-github"
+            }
+        ]
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha/",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
-        "className": "fa fa-instagram"
-      },
-      {
-        "name": "github",
-        "url": "http://github.com/sonnysangha",
-        "className": "fa fa-github"
-      }
-    ]
-  },
-  "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
-    "education": [
-      {
-        "school": "University of Kent",
-        "degree": "Masters in Advanced Computer Science",
-        "graduated": "January 2017",
-        "description": "Graduated with Distinction"
-      }
-    ],
-    "work": [
-      {
-        "company": "Clever Programmer",
-        "title": "Team Member && React Specialist",
-        "years": "April 2020 - Present",
-        "description": "Teaching ReactJS to thousands of students."
-      },
-      {
-        "company": "Lindar Media",
-        "title": "Software Engineer",
-        "years": "Nov 2019 - April 2020",
-        "description": "Building MrQ, a gambling website."
-      }
-    ],
-    "skills": [
-      {
-        "name": "ReactJs",
-        "level": "100%"
-      },
-      {
-        "name": "CSS",
-        "level": "95%"
-      },
-      {
-        "name": "Git",
-        "level": "60%"
-      },
-      {
-        "name": "Figma && Adobe XD",
-        "level": "55%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "80%"
-      }
-    ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "whatsapp-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
-      },
-      {
-        "title": "MERN Stack TikTok Clone",
-        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "tiktok-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
-      },
-      {
-        "title": "Facebook Clone with React",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "facebook-clone.png",
-        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
-      },
-      {
-        "title": "Airbnb Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "airbnb-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
-      },
-      {
-        "title": "Netflix Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Sonny Sangha must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
-      }
-    ]
-  }
+    "resume": {
+        "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+        "education": [
+            {
+                "school": "Waikato of Polytechnic",
+                "degree": "Degree of Information Technology",
+                "graduated": "Future ?????",
+                "description": ""
+            }
+        ],
+        "work": [
+            {
+                "company": "Mill Street Food Warehouse",
+                "title": "Grocery/SAP Champ/Accountant",
+                "years": "May 2013 - June 2019",
+                "description": "Did all things grocery and IT. Roles include SAP Champ, Buyer, Duty Mangaer, Fuel Manager, Loss Prevention, Building Security, Price Integrity, Storeroom, Forklift Driver, Grocery Assistant, Grocery Assistant"
+            },
+            {
+                "company": "Mill Street Food Warehouse (Trading as Pak N Save Mill Street)",
+                "title": "Grocery All Rounder",
+                "years": "Feb 1996 - May 2013",
+                "description": "Did all things grocery... from the botton to the top with IT on the side. Roles include Grocery 2IC, Buyer, Duty Mangaer(Saturdays), Building Security, Price Integrity, Storeroom, Forklift Driver, Grocery Assistant, Trolley Boy(usally public holidays), IT roles include looking after the Alarm System, Helping staff with internal computer issues, Invoice to Email"
+            },
+            {
+                "company": "Higlen Farms, Te Kuiti",
+                "title": "Farm Assisantant",
+                "years": "Dec 1989 - Jan 1995 (Summers)",
+                "description": "To provide relief in the tasks of feeding Calves/Milking Cows(150 head)/Hay & Silage Making"
+            }
+        ],
+        "skills": [
+            {
+                "name": "ReactJs",
+                "level": "50%"
+            },
+            {
+                "name": "CSS",
+                "level": "95%"
+            },
+            {
+                "name": "Git",
+                "level": "60%"
+            },
+            {
+                "name": "Figma && Adobe XD",
+                "level": "55%"
+            },
+            {
+                "name": "HTML5",
+                "level": "80%"
+            },
+            {
+                "name": "PHP",
+                "level": "90%"
+            },
+            {
+                "name": "MySQL",
+                "level": "80%"
+            },
+            {
+                "name": "Firebase",
+                "level": "80%"
+            },
+            {
+                "name": "MongoDB",
+                "level": "80%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "MERN Stack WhatsApp Clone",
+                "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+                "image": "whatsapp-mern.jpeg",
+                "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+            },
+            {
+                "title": "MERN Stack TikTok Clone",
+                "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+                "image": "tiktok-mern.jpeg",
+                "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+            },
+            {
+                "title": "Facebook Clone with React",
+                "category": "Facebook Clone built with ReactJS",
+                "image": "facebook-clone.png",
+                "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
+            },
+            {
+                "title": "Airbnb Clone",
+                "category": "Facebook Clone built with ReactJS",
+                "image": "airbnb-clone.jpeg",
+                "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
+            },
+            {
+                "title": "Netflix Clone",
+                "category": "Facebook Clone built with ReactJS",
+                "image": "netflix-clone.jpeg",
+                "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+            }
+        ]
+    },
+    "testimonials": {
+        "testimonials": [
+            {
+                "text": "Brendan promotes a high level of customer service while maintaining a good working relationship with fellow staff members.  He is an honest, reliable and punctual employee who always took pride in his appearance and set high standards for himself.",
+                "user": "G. Miller"
+            },
+            {
+                "text": "Whilst only a short term Brendan has proven to be totally reliable and trustworthy.  On Occasions releived as supercisor over a team of three other part-time staff, and been responsible to lock and secure the premises.  Needless to say he can be left to work unattended and have the work completed on time and to a very high standard.",
+                "user": "M. Goble"
+            },
+            {
+                "text": "In that time he has impressed me as a conscientious and hard working student.  His work is always well presented and shows considerable effort and thought.  .... His work as a librarian in the school library and his assistance with school computer equipment has been appreciated. ... Although he is quiet and a little reserved he has a good sense of humour.  His manner is generally cheerful and positive.",
+                "user": "G. Young (Teacher)"
+            },
+            {
+                "text": "Brendan is well mannered, punctual and very patient in explaining how to use software programmes.  He has a good relationship with Staff and Students and has a very helpful manner.  I have greatlly appreciated his willing and cheerful help.  His knowledge of computers has been invaluable",
+                "user": "S. Walden (Librarian)"
+            }
+        ]
+    }
 }

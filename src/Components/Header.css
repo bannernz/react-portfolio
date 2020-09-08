@@ -1,0 +1,33 @@
+header {
+    background-image: url('/images/header-background2.jpg');
+    color: yellow;
+}
+
+header .banner-text h1 {
+    color: yellow;
+}
+
+header .banner-text h3 span,
+header .banner-text h3 a {
+    color: yellow;
+}
+
+header .banner-text h3 {
+    color: whitesmoke;
+}
+
+.social a:hover > .fa-facebook {
+    color: #3b5998;
+}
+
+.social a:hover > .fa-linkedin {
+    color: #2867b2;
+}
+
+.social a:hover > .fa-instagram {
+    color: #fb3958;
+}
+
+.social a:hover > .fa-github {
+    color: #959da5;
+}

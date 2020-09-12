@@ -1,9 +1,13 @@
 import React, {Component} from 'react';
+import ProgressBar from 'react-customizable-progressbar'
+
+import './ProgressBar.css'
 
 class Resume extends Component {
     render() {
         if (this.props.data) {
             var skillmessage = this.props.data.skillmessage;
+            var skillicon = this.props.data.skillicon;
             var education = this.props.data.education.map(function (education) {
                 return (
                     <div key={education.school}>
@@ -30,10 +34,22 @@ class Resume extends Component {
             });
             var skills = this.props.data.skills.map(function (skills) {
                 var className = 'bar-expand ' + skills.name.toLowerCase();
+                var skillIcon = function (skills) {
+                    if (skills.icon) {
+                        return <></>;
+                    }
+                    return <span>{skills.icon}</span>;
+                };
                 return (
                     <li key={skills.name}>
                         <span style={{width: skills.level}} className={className}></span>
                         <em>{skills.name}</em>
+                        {skills.logo ?
+                        <div className="skillName">
+                            {skills.logo? <img src={skills.logo} alt="skills icon" />: <span></span> }
+                        </div> : <></>
+                        }
+                        
                     </li>
                 );
             });
@@ -86,3 +102,32 @@ class Resume extends Component {
 }
 
 export default Resume;
+
+
+/*
+                        <ProgressBar
+                            radius={100}
+                            progress={skills.value}
+                            cut={120}
+                            rotate={-210}
+                            strokeWidth={25}
+                            strokeColor="#5d9cec"
+                            strokeLinecap="square"
+                            trackStrokeWidth={20}
+                            trackStrokeColor="#e6e6e6"
+                            trackStrokeLinecap="square"
+                            pointerRadius={0}
+                            initialAnimation={true}
+                            transition="1.5s ease 0.5s"
+                            trackTransition="0s ease"
+                        >
+                            <div className="indicator-volume">
+                                <div className="inner">
+                                    <div className="icon">
+                                        <i className="fa fa-volume-up" />
+                                    </div>
+                                    <div className="percentage">{skills.value}%</div>
+                                </div>
+                            </div>
+                        </ProgressBar>
+*/

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './About.css';
+import Address from './Address';
 
 class About extends Component {
     render() {
@@ -41,17 +42,8 @@ class About extends Component {
                         <div className="row">
                             <div className="columns contact-details">
                                 <h2>Contact Details</h2>
+                                <Address data={this.props.data} />
                                 <p className="address">
-                                    <span>{name}</span>
-                                    <br />
-                                    <span>
-                                        {street}
-                                        <br />
-                                        {city} {state}, {zip}
-                                    </span>
-                                    <br />
-                                    <span>{phone}</span>
-                                    <br />
                                     <span>{email}</span>
                                 </p>
                             </div>

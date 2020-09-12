@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Address from './Address';
 
 const Contact = ({data}) => {
     const [url, setUrl] = useState('mailto:test@example.com?subject=subject&body=body');
@@ -86,17 +87,10 @@ const Contact = ({data}) => {
 
                 <aside className="four columns footer-widgets">
                     <div className="widget widget_contact">
-                        <h4>Address and Phone</h4>
-                        <p className="address">
-                            {data?.name}
-                            <br />
-                            {data?.address.street} <br />
-                            {data?.address.suburb} <br />
-                            {data?.address.city} {data?.address.postcode} <br />
-                            {data?.address.country}
-                            <br />
-                            <span>{data?.phone}</span>
-                        </p>
+                        <div>
+                            <h4>Address and Phone</h4>
+                            <Address data={data} />
+                        </div>
                     </div>
 
                     <div className="widget widget_tweets"></div>

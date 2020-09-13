@@ -7,12 +7,18 @@ const Contact = ({data}) => {
     const [subject, setSubject] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [isFormDisabled, setIsFormDisabled] = useState(true);
 
     console.log(data);
 
     const handleClick = (e) => {
         e.preventDefault();
-        window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
+
+        var form = this;
+        $.post($form.attr("action"), $form.serialize()).then(function() {
+            alert("Thank you!");
+        });
+        // window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
     };
 
     return (
@@ -31,7 +37,7 @@ const Contact = ({data}) => {
 
             <div className="row">
                 <div className="eight columns">
-                    <form id="contactForm" name="contactForm">
+                    <form id="contactForm" name="contactForm" data-netlify="true">
                         <fieldset>
                             <div>
                                 <label htmlFor="contactName">
@@ -68,7 +74,7 @@ const Contact = ({data}) => {
                             </div>
 
                             <div>
-                                <button type="submit" onClick={handleClick} className="submit">
+                                <button type="submit" onClick={handleClick} className="submit" disable={isFormDisabled}>
                                     Submit
                                 </button>
                                 <span id="image-loader">

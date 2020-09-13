@@ -6,7 +6,7 @@
         "image": "profile.jpg",
         "bio": "My name is Brendan, I'm a Full Stack ReactJS Developer.",
         "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
-        "email": "banner.nz@cleverprogrammer.com",
+        "email": "",
         "phone": "+64 21 266 test",
         "address": {
             "street": "123 Fake Street",

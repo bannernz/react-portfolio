@@ -1,0 +1,89 @@
+.candidatos {
+    position: relative;
+    margin-bottom: 5px;
+}
+.candidatos .parcial {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+.candidatos .parcial .info {
+    position: relative;
+}
+
+.candidatos .parcial .info .nome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.candidatos .parcial .info .percentagem-num {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.candidatos .parcial .progressBar {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    margin: 30px 0 2px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.candidatos .parcial .progressBar {
+    background: rgba(199, 198, 198, 0.6);
+}
+
+.candidatos .parcial .percentagem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #0bceaf;
+    -webkit-transition: 3s all;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: animationProgress;
+}
+
+.candidatos .parcial .percentagem {
+    background: #E91E63;
+}
+
+.candidatos .parcial .percentagem[data-value^="2"] {
+    background: grey;
+}
+
+.candidatos .parcial .percentagem[data-value^="5"] {
+    background: yellow;
+}
+
+.candidatos .parcial .percentagem[data-value^="8"] {
+    background: green;
+}
+
+.candidatos .parcial .percentagem[data-value^="9"] {
+    background: green;
+}
+
+.candidatos .skillName {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -110px;
+    height: 30px;
+    width: 150px;
+    padding-right: 5px;
+    text-align: center;
+    top: 40px;
+}

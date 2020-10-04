@@ -1,11 +1,15 @@
 import React, {Component} from 'react';
 
+import './Footer.css';
+
 class Footer extends Component {
     render() {
         if (this.props.data) {
             var networks = this.props.data.social.map(function (network) {
+                let classNameLi = network.className.replace('fa fa-', '');
+                // 'fa fa-'
                 return (
-                    <li key={network.name}>
+                    <li key={network.name} className={classNameLi}>
                         <a href={network.url}>
                             <i className={network.className}></i>
                         </a>

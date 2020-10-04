@@ -1,8 +1,50 @@
 #portfolio h2 {
-    font: 15px/24px 'opensans-semibold', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-align: center;
-    margin-bottom: 48px;
-    color: yellowgreen;
+	font: 15px/24px 'opensans-semibold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 48px;
+	color: yellowgreen;
+}
+
+.portfolio-item .item-wrap .link-icon {
+	display: none;
+}
+
+.portfolio-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.portfolio-item .link-icons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	vertical-align: middle;
+	padding-right: 1em;
+	margin: auto;
+}
+
+.portfolio-item .link-icons:last-child {
+	padding-right: unset;
+}
+
+.portfolio-item .link-icons .link-icon-sub {
+	padding-right: 0.5em;
+}
+
+.portfolio-item .link-icons a:last-child .link-icon-sub {
+	padding-right: unset;
+}
+
+/* .portfolio-item .link-icons .link-icon-sub:hover {
+    color: black;
+} */
+
+span.photoGalleryLink {
+	cursor: pointer;
+}
+
+span.photoGalleryLink:hover {
+	cursor: pointer;
 }

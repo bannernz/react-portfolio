@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
 import ProgressBar from 'react-customizable-progressbar'
+import TechnicalSkills from './TechnicalSkills';
 
 import './ProgressBar.css'
+import ProfessionalSkills from './ProfessionalSkills';
+
 
 class Resume extends Component {
     render() {
+        
         if (this.props.data) {
             var skillmessage = this.props.data.skillmessage;
             var skillicon = this.props.data.skillicon;
@@ -32,7 +36,9 @@ class Resume extends Component {
                     </div>
                 );
             });
-            var skills = this.props.data.skills.map(function (skills) {
+            var technicalSkills = this.props.data.technical;
+            var professionalSkills = this.props.data.professional;
+            var skills = technicalSkills.skills.map(function (skills) {
                 var className = 'bar-expand ' + skills.name.toLowerCase();
                 var skillIcon = function (skills) {
                     if (skills.icon) {
@@ -82,6 +88,11 @@ class Resume extends Component {
                 </div>
 
                 <div className="row skill">
+                    <TechnicalSkills data={technicalSkills} />
+                    <ProfessionalSkills data={professionalSkills} />
+                </div>
+
+                {/* <div className="row skill">
                     <div className="three columns header-col">
                         <h1>
                             <span>Skills</span>
@@ -95,7 +106,7 @@ class Resume extends Component {
                             <ul className="skills">{skills}</ul>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
         );
     }

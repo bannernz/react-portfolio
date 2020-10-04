@@ -1,179 +1,269 @@
 {
-    "main": {
-        "name": "Brendan Mills",
-        "occupation": "ReactJS Developer, PHP, Symfony, Firebase and MySQL",
-        "description": "Full Stack ReactJS Developer, Founder && Freelancer by Night.",
-        "image": "profile.jpg",
-        "bio": "My name is Brendan, I'm a Full Stack ReactJS Developer.",
-        "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
-        "email": "",
-        "phone": "+64 21 266 test",
-        "address": {
-            "street": "123 Fake Street",
-            "suburb": "Rototuna North",
-            "city": "Hamilton",
-            "postcode": "3210",
-            "region": "Waikato",
-            "country": "New Zealand"
-        },
-        "website": "#",
-        "resumedownload": "#",
-        "social": [
-            {
-                "name": "facebook",
-                "url": "https://www.facebook.com/sllim.nadnerb/",
-                "className": "fa fa-facebook"
-            },
-            {
-                "name": "linkedin",
-                "url": "https://www.linkedin.com/in/brendanmillsnz/",
-                "className": "fa fa-linkedin"
-            },
-            {
-                "name": "instagram",
-                "url": "https://www.instagram.com/banner_nz/",
-                "className": "fa fa-instagram"
-            },
-            {
-                "name": "github",
-                "url": "https://github.com/bannernz",
-                "className": "fa fa-github"
-            }
-        ]
-    },
-    "resume": {
-        "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
-        "education": [
-            {
-                "school": "Waikato of Polytechnic",
-                "degree": "Degree of Information Technology",
-                "graduated": "Future ?????",
-                "description": ""
-            }
-        ],
-        "work": [
-            {
-                "company": "Mill Street Food Warehouse",
-                "title": "Grocery/SAP Champ/Accountant",
-                "years": "May 2013 - June 2019",
-                "description": "Did all things grocery and IT. Roles include SAP Champ, Buyer, Duty Mangaer, Fuel Manager, Loss Prevention, Building Security, Price Integrity, Storeroom, Forklift Driver, Grocery Assistant, Grocery Assistant"
-            },
-            {
-                "company": "Mill Street Food Warehouse (Trading as Pak N Save Mill Street)",
-                "title": "Grocery All Rounder",
-                "years": "Feb 1996 - May 2013",
-                "description": "Did all things grocery... from the botton to the top with IT on the side. Roles include Grocery 2IC, Buyer, Duty Mangaer(Saturdays), Building Security, Price Integrity, Storeroom, Forklift Driver, Grocery Assistant, Trolley Boy(usally public holidays), IT roles include looking after the Alarm System, Helping staff with internal computer issues, Invoice to Email"
-            },
-            {
-                "company": "Higlen Farms, Te Kuiti",
-                "title": "Farm Assisantant",
-                "years": "Dec 1989 - Jan 1995 (Summers)",
-                "description": "To provide relief in the tasks of feeding Calves/Milking Cows(150 head)/Hay & Silage Making"
-            }
-        ],
-        "skills": [
-            {
-                "name": "ReactJs",
-                "level": "50%",
-                "value": "50",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-            },
-            {
-                "name": "CSS",
-                "level": "95%",
-                "value": "95",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
-            },
-            {
-                "name": "Git",
-                "level": "60%",
-                "value": "55",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Git-icon-black.svg"
-            },
-            {
-                "name": "HTML5",
-                "level": "80%",
-                "value": "80",
-                "logo": "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
-            },
-            {
-                "name": "PHP",
-                "level": "90%",
-                "value": "80",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
-            },
-            {
-                "name": "MySQL",
-                "level": "80%",
-                "value": "80",
-                "logo": "https://www.mysql.com/common/logos/logo-mysql-170x115.png"
-            },
-            {
-                "name": "Firebase",
-                "level": "80%",
-                "value": "80",
-                "logo": "https://upload.wikimedia.org/wikipedia/commons/4/46/Touchicon-180.png"
-            },
-            {
-                "name": "MongoDB",
-                "level": "80%",
-                "value": "80",
-                "logo": "/images/MongoDBLogo.svg"
-            }
-        ]
-    },
-    "portfolio": {
-        "projects": [
-            {
-                "title": "MERN Stack WhatsApp Clone",
-                "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-                "image": "whatsapp-mern.jpeg",
-                "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
-            },
-            {
-                "title": "MERN Stack TikTok Clone",
-                "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-                "image": "tiktok-mern.jpeg",
-                "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
-            },
-            {
-                "title": "Facebook Clone with React",
-                "category": "Facebook Clone built with ReactJS",
-                "image": "facebook-clone.png",
-                "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
-            },
-            {
-                "title": "Airbnb Clone",
-                "category": "Facebook Clone built with ReactJS",
-                "image": "airbnb-clone.jpeg",
-                "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
-            },
-            {
-                "title": "Netflix Clone",
-                "category": "Facebook Clone built with ReactJS",
-                "image": "netflix-clone.jpeg",
-                "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
-            }
-        ]
-    },
-    "testimonials": {
-        "testimonials": [
-            {
-                "text": "Brendan promotes a high level of customer service while maintaining a good working relationship with fellow staff members.  He is an honest, reliable and punctual employee who always took pride in his appearance and set high standards for himself.",
-                "user": "G. Miller"
-            },
-            {
-                "text": "Whilst only a short term Brendan has proven to be totally reliable and trustworthy.  On Occasions releived as supercisor over a team of three other part-time staff, and been responsible to lock and secure the premises.  Needless to say he can be left to work unattended and have the work completed on time and to a very high standard.",
-                "user": "M. Goble"
-            },
-            {
-                "text": "In that time he has impressed me as a conscientious and hard working student.  His work is always well presented and shows considerable effort and thought.  .... His work as a librarian in the school library and his assistance with school computer equipment has been appreciated. ... Although he is quiet and a little reserved he has a good sense of humour.  His manner is generally cheerful and positive.",
-                "user": "G. Young (Teacher)"
-            },
-            {
-                "text": "Brendan is well mannered, punctual and very patient in explaining how to use software programmes.  He has a good relationship with Staff and Students and has a very helpful manner.  I have greatlly appreciated his willing and cheerful help.  His knowledge of computers has been invaluable",
-                "user": "S. Walden (Librarian)"
-            }
-        ]
-    }
+	"main": {
+		"name": "Brendan Mills",
+		"occupation": "ReactJS Developer, PHP, Symfony, Firebase and MySQL",
+		"description": "Full Stack ReactJS Developer, Founder && Freelancer by Night.",
+		"image": "profile.jpg",
+		"imagemessage": "Brendan Mills",
+		"bio": "My name is Brendan, I'm a Full Stack ReactJS Developer.  I am base in Hamilton, New Zealand.  I have customer and retail experience, with experience managing staff.  My background is in full stack development and visual design.  My hunger for knowledge and determination to turn information into action.  I currently working as a freelancing full stack developer and is always interested in a challenge.",
+		"contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+		"email": "brendan.mills.dev@gmail.com",
+		"phone": "",
+		"address": {
+			"street": "",
+			"suburb": "Rototuna North",
+			"city": "Hamilton",
+			"postcode": "3210",
+			"region": "Waikato",
+			"country": "New Zealand"
+		},
+		"website": "#",
+		"resumedownload": "",
+		"social": [
+			{
+				"name": "facebook",
+				"url": "https://www.facebook.com/sllim.nadnerb/",
+				"className": "fa fa-facebook fa-2x"
+			},
+			{
+				"name": "linkedin",
+				"url": "https://www.linkedin.com/in/brendanmillsnz/",
+				"className": "fa fa-linkedin fa-2x"
+			},
+			{
+				"name": "instagram",
+				"url": "https://www.instagram.com/bannernz.dev/",
+				"className": "fa fa-instagram fa-2x"
+			},
+			{
+				"name": "github",
+				"url": "https://github.com/bannernz",
+				"className": "fa fa-github fa-2x"
+			}
+		]
+	},
+	"resume": {
+		"education": [
+			{
+				"school": "Clever Programmer",
+				"degree": "Profit with Javasript",
+				"graduated": "Sep 2020 - Current",
+				"description": "Complete real-world projects and make a modern Javascript and React JS web developer. Other Tools use Firebase, MongoDB, Heroku and Material UI"
+			},
+			{
+				"school": "Waikato of Polytechnic",
+				"degree": "Degree of Information Technology",
+				"graduated": "",
+				"description": ""
+			}
+		],
+		"work": [
+			{
+				"company": "Mill Street Food Warehouse",
+				"title": "Grocery/SAP Champ/Accountant",
+				"years": "May 2013 - June 2019",
+				"description": "Did all things grocery and IT. Roles include SAP Champ, Buyer, Duty Mangaer, Fuel Manager, Loss Prevention, Building Security, Price Integrity, Storeroom, Forklift Driver, Grocery Assistant, Grocery Assistant"
+			},
+			{
+				"company": "Mill Street Food Warehouse (Trading as Pak N Save Mill Street)",
+				"title": "Grocery All Rounder",
+				"years": "Feb 1996 - May 2013",
+				"description": "Did all things grocery... from the botton to the top with IT on the side. Roles include Grocery 2IC, Buyer, Duty Mangaer(Saturdays), Building Security, Price Integrity, Storeroom, Forklift Driver, Grocery Assistant, Trolley Boy(usally public holidays), IT roles include looking after the Alarm System, Helping staff with internal computer issues, Invoice to Email"
+			},
+			{
+				"company": "Higlen Farms, Te Kuiti",
+				"title": "Farm Assisantant",
+				"years": "Dec 1989 - Jan 1996 (Summers)",
+				"description": "To provide relief in the tasks of feeding Calves/Milking Cows(150 head)/Hay & Silage Making"
+			}
+		],
+		"professional": {
+			"message": "Here you can create a short write-up of your skills to show off to employers",
+			"skills": [
+				{
+					"name": "Communication",
+					"value": "50"
+				},
+				{
+					"name": "Team Work",
+					"value": "95"
+				},
+				{
+					"name": "Project Management",
+					"value": "55"
+				},
+				{
+					"name": "Creativity",
+					"value": "85"
+				}
+			]
+		},
+		"technical": {
+			"message": "Here you can create a short write-up of your skills to show off to employers",
+			"skills": [
+				{
+					"name": "ReactJs",
+					"level": "50%",
+					"value": "50",
+					"logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+				},
+				{
+					"name": "HTML5",
+					"level": "85%",
+					"value": "85",
+					"logo": "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+				},
+				{
+					"name": "CSS",
+					"level": "85%",
+					"value": "85",
+					"logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+				},
+				{
+					"name": "PHP",
+					"level": "90%",
+					"value": "90",
+					"logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
+				},
+				{
+					"name": "MySQL",
+					"level": "80%",
+					"value": "80",
+					"logo": "https://www.mysql.com/common/logos/logo-mysql-170x115.png"
+				},
+				{
+					"name": "Firebase",
+					"level": "80%",
+					"value": "80",
+					"logo": "https://upload.wikimedia.org/wikipedia/commons/4/46/Touchicon-180.png"
+				},
+				{
+					"name": "MongoDB",
+					"level": "80%",
+					"value": "80",
+					"logo": "/images/MongoDBLogo.svg"
+				},
+				{
+					"name": "Git",
+					"level": "60%",
+					"value": "60",
+					"logo": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Git-icon-black.svg"
+				}
+			]
+		}
+	},
+	"portfolio": {
+		"projects": [
+			{
+				"title": "Instagram Clone",
+				"category": "Instagram Clone built with ReactJS",
+				"image": "comming-soon.jpeg",
+				"url": "",
+				"videoUrl:": "",
+				"photos": []
+			},
+			{
+				"title": "Netflix CLone",
+				"category": "Netflix Clone built with HTML/CSS/Javascript",
+				"image": "netflex/netflix-screenshot.jpg",
+				"url": "http://wuflix.mills.homedns.org/",
+				"videoUrl:": "/images/portfolio/netflex/netflix-shortvideo.mov",
+				"photos": [
+					{
+						"photo": "/images/portfolio/netflex/netflix-screenshot.jpg",
+						"thumbnail": "/images/portfolio/netflex/netflix-screenshot.jpg",
+						"caption": "",
+						"subcaption": ""
+					}
+				]
+			},
+			{
+				"title": "Amazon Clone",
+				"category": "Amazon Clone built with ReactJS & Firebase",
+				"image": "amazon/amazon-1.jpg",
+				"url": "https://clone-752b5.web.app/",
+				"videourl:": null,
+				"photos": [
+					{
+						"photo": "/images/portfolio/amazon/amazon-1.jpg",
+						"thumbnail": "/images/portfolio/amazon/amazon-1.jpg",
+						"caption": "",
+						"subcaption": ""
+					},
+					{
+						"photo": "/images/portfolio/amazon/amazon-2.jpg",
+						"thumbnail": "/images/portfolio/amazon/amazon-1.jpg",
+						"caption": "",
+						"subcaption": ""
+					},
+					{ "photo": "/images/portfolio/amazon/amazon-3.jpg", "thumbnail": "/images/portfolio/amazon/amazon-1.jpg", "caption": "", "subcaption": "" },
+					{ "photo": "/images/portfolio/amazon/amazon-4.jpg", "thumbnail": "/images/portfolio/amazon/amazon-1.jpg", "caption": "", "subcaption": "" },
+					{ "photo": "/images/portfolio/amazon/amazon-5.jpg", "thumbnail": "/images/portfolio/amazon/amazon-1.jpg", "caption": "", "subcaption": "" },
+					{ "photo": "/images/portfolio/amazon/amazon-6.jpg", "thumbnail": "/images/portfolio/amazon/amazon-1.jpg", "caption": "", "subcaption": "" },
+					{ "photo": "/images/portfolio/amazon/amazon-7.jpg", "thumbnail": "/images/portfolio/amazon/amazon-1.jpg", "caption": "", "subcaption": "" },
+					{ "photo": "/images/portfolio/amazon/amazon-8.jpg", "thumbnail": "/images/portfolio/amazon/amazon-1.jpg", "caption": "", "subcaption": "" }
+				]
+			},
+			{
+				"title": "MERN Stack TikTok Clone",
+				"category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+				"image": "tiktok-mern.jpeg",
+				"image": "comming-soon.jpeg",
+				"videoUrl:": "",
+				"photos": []
+			},
+			{
+				"title": "Facebook Clone with React",
+				"category": "Facebook Clone built with ReactJS",
+				"image": "comming-soon.jpeg",
+				"url": "",
+				"videoUrl:": "",
+				"photos": []
+			},
+			{
+				"title": "Airbnb Clone",
+				"category": "Airbnb Clone built with ReactJS",
+				"image": "comming-soon.jpeg",
+				"url": "",
+				"videoUrl:": "",
+				"photos": []
+			},
+			{
+				"title": "Netflix Clone",
+				"category": "Facebook Clone built with ReactJS",
+				"image": "comming-soon.jpeg",
+				"url": "",
+				"videoUrl:": "",
+				"photos": []
+			},
+			{
+				"title": "Spotify Clone",
+				"category": "Spotify Clone built with ReactJS",
+				"image": "comming-soon.jpeg",
+				"url": "",
+				"videoUrl:": "",
+				"photos": []
+			}
+		]
+	},
+	"testimonials": {
+		"testimonials": [
+			{
+				"text": "Brendan promotes a high level of customer service while maintaining a good working relationship with fellow staff members.  He is an honest, reliable and punctual employee who always took pride in his appearance and set high standards for himself.",
+				"user": "G. Miller"
+			},
+			{
+				"text": "Whilst only a short term Brendan has proven to be totally reliable and trustworthy.  On Occasions releived as supercisor over a team of three other part-time staff, and been responsible to lock and secure the premises.  Needless to say he can be left to work unattended and have the work completed on time and to a very high standard.",
+				"user": "M. Goble"
+			},
+			{
+				"text": "In that time he has impressed me as a conscientious and hard working student.  His work is always well presented and shows considerable effort and thought.  .... His work as a librarian in the school library and his assistance with school computer equipment has been appreciated. ... Although he is quiet and a little reserved he has a good sense of humour.  His manner is generally cheerful and positive.",
+				"user": "G. Young (Teacher)"
+			},
+			{
+				"text": "Brendan is well mannered, punctual and very patient in explaining how to use software programmes.  He has a good relationship with Staff and Students and has a very helpful manner.  I have greatlly appreciated his willing and cheerful help.  His knowledge of computers has been invaluable",
+				"user": "S. Walden (Librarian)"
+			}
+		]
+	}
 }

@@ -1,0 +1,56 @@
+ul.social-links {
+    display: flex;
+    justify-content: center !important;
+    padding: 0px;
+    margin: -6px
+}
+
+ul.social-links li a {
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+    border: 2px solid rgba(198,201,216,.75);
+        border-top-color: rgba(198, 201, 216, 0.75);
+        border-right-color: rgba(198, 201, 216, 0.75);
+        border-bottom-color: rgba(198, 201, 216, 0.75);
+        border-left-color: rgba(198, 201, 216, 0.75);
+    line-height: 35px;
+    color: rgba(198,201,216,.75);
+    border-radius: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+ul.social-links li:hover a {
+    background: #f9004d;
+    border-color: #f9004d;
+    color: #fff;
+    box-shadow: 0 10px 15px 0 rgba(0,0,0,.1);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+
+
+.social-links li.facebook:hover a {
+    /* color: #3b5998; */
+    background: #3b5998;
+    border-color: #3b5998;
+}
+
+.social-links li.linkedin:hover a {
+    /* color: #2867b2; */
+    background: #2867b2;
+    border-color: #2867b2;
+}
+
+.social-links li.instagram:hover a {
+    /* color: #fb3958; */
+    background: #fb3958;
+    border-color: #fb3958;
+}
+
+.social-links li.github:hover a {
+    /* color: #959da5; */
+    background: #959da5;
+    border-color: #959da5;
+}
